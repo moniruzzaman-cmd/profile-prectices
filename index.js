@@ -53,6 +53,6 @@ document.querySelector('#button2').addEventListener('click',(e)=>{
     document.querySelector('.login').style.display = "inline-block";
     document.querySelector('#profilePage').style.display = "none";
   document.getElementById("inputFromName").value='';
-    document.getElementById("inputFromage").value='0';
-    document.getElementById("inputFromId").value='0';
+    document.getElementById("inputFromage").value='';
+    document.getElementById("inputFromId").value='';
 })
