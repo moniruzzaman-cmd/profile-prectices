@@ -1,11 +1,120 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
-section{
+
+/* ////////////LogIn page //////////////////////// */
+.login{
+    
+    background-image: linear-gradient(45deg,#5fd7dc,#8567ea,#e83af7);
+    height: 900px;
+    width: 100%;
+    
+}
+#logInPage{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.loginFrom{
+    margin-top: 100px;
+  border-radius: 20px;
+   max-width: 350px;
+   min-width: 300px;
+   background-color:white;
+   height: 490px;
+   padding: 5%;
+   
+   
+
+
+}
+.firstHeading{
+    font-size: 40px;
+    padding-bottom: 30px ;
+    display: flex;
+    justify-content: center;
+
+}
+/* .firstHeading h1{
+    
+    /* padding: 30px 20%; */
+
+
+label{
+    font-size: 20px;
+    color: rgb(71, 67, 67);
+    
+     
+    
+}
+.fromcontrol{
+    width: 90%;
+    height: 30px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 0 15px 0;
+    border-radius: 2px;
+}
+.submitBtn1{
+ display: flex;
+ border: none;
+}
+.btnFlot{
+    display: flex;
+    justify-content: center;
+}
+#btn11{
+    font-size: 25px;
+    margin-top: 3rem;
+    height: 50px;
+    width: 80%;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg,#6ad0de,#e83af7);
+    color: white;
+    text-align: center;
+   padding-top: 15px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////profile section//////////////////// */
+#profilePage{
     height: 100vh;
+    display: none;
 }
 
 
@@ -48,7 +157,7 @@ p{
     border-radius: 20px;
     max-width: 350px;
 }
-.btn button{
+.btn #button2{
     width: 150px;
     font-size: 25px;
     color: white;
