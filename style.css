@@ -115,6 +115,7 @@ label{
 /* ////////////////profile section//////////////////// */
 #profilePage{
     height: 100vh;
+    display: none;
    
 }
 
