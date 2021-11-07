@@ -36,7 +36,9 @@ const Id =document.getElementById("inputFromId").value;
     
     if( !showerror) {
         
-       document.querySelector('.firstHeading').innerHTML="Type name";
+       let hedingTitle= document.querySelector('.firstHeading');
+       hedingTitle.innerHTML="Type name";
+       hedingTitle.style.color="red"
         
  
     }else if(showerror){
